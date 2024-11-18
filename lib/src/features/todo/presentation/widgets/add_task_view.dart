@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:webreinvent_todo/src/core/constants/string_constants.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_bloc.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_event.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_state.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_bloc.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_event.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_state.dart';
 
 ///AddTaskView - Display Add Task View
 class AddTaskView extends StatelessWidget {

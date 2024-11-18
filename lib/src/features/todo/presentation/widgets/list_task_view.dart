@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:webreinvent_todo/src/core/constants/string_constants.dart';
 import 'package:webreinvent_todo/src/core/utils/toast_utils.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_bloc.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_event.dart';
-import 'package:webreinvent_todo/src/features/todo/data/bloc/todo_state.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_bloc.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_event.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/bloc/todo_state.dart';
 
 ///ListTaskView - Display Listview of todo list
 class ListTaskView extends StatelessWidget {

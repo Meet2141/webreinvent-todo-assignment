@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:webreinvent_todo/src/core/constants/string_constants.dart';
-import 'package:webreinvent_todo/src/features/todo/todo_screen.dart';
+import 'package:webreinvent_todo/src/features/todo/presentation/screens/todo_screen.dart';
 
 void main() {
   runApp(const MyApp());

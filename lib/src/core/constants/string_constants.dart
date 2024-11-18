@@ -7,4 +7,5 @@ class StringConstants{
   static const String taskCompleted = 'Task Completed!!';
   static const String taskIncomplete = 'Incomplete!!';
   static const String dataAddedSuccessfully = 'Data Added Successfully!!';
+  static const String somethingWentWrong = 'Something Went Wrong!!';
 }

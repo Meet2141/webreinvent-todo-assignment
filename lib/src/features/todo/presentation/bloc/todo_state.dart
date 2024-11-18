@@ -1,9 +1,9 @@
-import 'package:webreinvent_todo/src/features/todo/data/model/todo_model.dart';
+import 'package:webreinvent_todo/src/features/todo/domain/entities/todo_entity.dart';
 
 enum TodoStatus { initial, loading, success, fetched, completed, incomplete, failure }
 
 class TodoState {
-  final List<TodoModel> tasks;
+  final List<TodoEntity> tasks;
   final String? errorMessage;
   final TodoStatus status;
 
@@ -14,7 +14,7 @@ class TodoState {
   });
 
   TodoState copyWith({
-    List<TodoModel>? tasks,
+    List<TodoEntity>? tasks,
     String? errorMessage,
     TodoStatus? status,
   }) {

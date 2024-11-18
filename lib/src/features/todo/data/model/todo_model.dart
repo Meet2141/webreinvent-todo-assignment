@@ -1,10 +1,9 @@
-class TodoModel {
-  final String title;
-  final bool isCompleted;
+import 'package:webreinvent_todo/src/features/todo/domain/entities/todo_entity.dart';
 
+class TodoModel extends TodoEntity {
   TodoModel(
-    this.isCompleted,
-    this.title,
+    super.isCompleted,
+    super.title,
   );
 
   Map<String, dynamic> toMap() {
